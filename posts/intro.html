@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Una introducción a HTML: estructura de un documento, elementos semánticos y enlaces." />
+    <title>Introducción a HTML | Bitácora DDS</title>
+    <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <header class="container site-header">
+      <a href="../index.html" class="marca">bitácora dds.</a>
+      <nav aria-label="Principal">
+        <a href="../index.html" aria-current="page">Artículos</a>
+        <a href="../acerca.html">Acerca de</a>
+      </nav>
+    </header>
+    <main id="contenido" class="container prose" tabindex="-1">
+      <article>
+        <p class="eyebrow"><a href="../index.html">← Volver a artículos</a></p>
+        <h1>Introducción a HTML</h1>
+        <p class="subtitle"><time datetime="2026-10-03">3 de octubre de 2026</time></p>
+        <p>HTML es el lenguaje que define la estructura de una página web. Sus elementos indican qué contenido es un título, un párrafo, un enlace o una sección.</p>
+        <h2>La estructura de un documento</h2>
+        <p>Una página HTML comienza con una declaración de tipo de documento. Dentro de <code>&lt;html&gt;</code>, el elemento <code>&lt;head&gt;</code> contiene información sobre la página y <code>&lt;body&gt;</code> contiene lo que se muestra en pantalla.</p>
+        <h2>Elementos semánticos</h2>
+        <p>Elementos como <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;article&gt;</code> y <code>&lt;footer&gt;</code> describen la función de cada parte. Esto ayuda a las personas que usan lectores de pantalla y facilita entender el documento.</p>
+        <h2>Enlaces</h2>
+        <p>Con <code>&lt;a href="..."&gt;</code> se conecta una página con otra. El texto del enlace debe explicar con claridad adónde lleva.</p>
+      </article>
+    </main>
+    <footer class="container site-footer">
+      <p>Cátedra de Desarrollo de Software · UTN FRBA</p>
+    </footer>
+  </body>
+</html>

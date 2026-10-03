@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Notas y referencias de las clases de Desarrollo de Software de la UTN FRBA." />
+    <title>Artículos de Desarrollo de Software | Bitácora DDS</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <header class="container site-header">
+      <a href="index.html" class="marca">bitácora dds.</a>
+      <nav aria-label="Principal">
+        <a href="index.html" aria-current="page">Artículos</a>
+        <a href="acerca.html">Acerca de</a>
+      </nav>
+    </header>
+    <main id="contenido" class="container" tabindex="-1">
+      <h1>Desarrollo de Software</h1>
+      <p class="subtitle">Notas y referencias de las clases.</p>
+      <section aria-labelledby="articulos">
+        <h2 id="articulos" class="section-title">Artículos</h2>
+        <div class="articles">
+          <article class="card">
+            <picture class="card-image">
+              <source
+                srcset="assets/escritorio-720.webp 720w, assets/escritorio-1120.webp 1120w"
+                sizes="(max-width: 40rem) calc(100vw - 2rem), 21rem"
+                type="image/webp"
+              />
+              <img src="assets/escritorio.jpg" alt="" width="1200" height="800" fetchpriority="high" decoding="async" />
+            </picture>
+            <div class="card-content">
+              <time datetime="2026-10-03">3 de octubre de 2026</time>
+              <h3><a href="posts/intro.html">Introducción a HTML</a></h3>
+              <p>Qué es HTML, cómo se organiza una página y cuáles son sus elementos básicos.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="container site-footer">
+      <p>Cátedra de Desarrollo de Software · UTN FRBA</p>
+    </footer>
+  </body>
+</html>
